@@ -20,7 +20,8 @@
         "phpunit/phpunit": "^8.0",
         "ext-gd": "*"
     },
-    "require-dev": [],
+    "require-dev": {
+	},
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
