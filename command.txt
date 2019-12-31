@@ -5,15 +5,15 @@ php artisan serve
 https://help.heroku.com/K1PPS2WM/why-are-my-file-uploads-missing-deleted
 https://devcenter.heroku.com/articles/s3-upload-php
 https://www.msp360.com/resources/blog/how-to-find-your-aws-access-key-id-and-secret-access-key/
+https://github.com/the-control-group/voyager/issues/2298
+
+composer require league/flysystem-aws-s3-v3
 
 heroku config:set AWS_ACCESS_KEY_ID=AKIAIDZTLHEKGEDX5MHQ
-
 heroku config:set AWS_SECRET_ACCESS_KEY=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
-
 heroku config:set AWS_BUCKET=vn-mart-taiwan-s3
-
-heroku config:set AWS_DEFAULT_REGION=vn-mart-taiwan-s3
-heroku config:set AWS_URL=vn-mart-taiwan-s3
+heroku config:set AWS_DEFAULT_REGION=southeast-1
+heroku config:set AWS_URL=https://vn-mart-taiwan-s3.s3-ap-southeast-1.amazonaws.com
 
 
 AWSAccessKeyId=AKIAIDZTLHEKGEDX5MHQ
