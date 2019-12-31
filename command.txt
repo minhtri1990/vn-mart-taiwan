@@ -13,7 +13,7 @@ heroku config:set AWS_ACCESS_KEY_ID=AKIAIDZTLHEKGEDX5MHQ
 heroku config:set AWS_SECRET_ACCESS_KEY=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
 heroku config:set AWS_BUCKET=vn-mart-taiwan-s3
 heroku config:set AWS_DEFAULT_REGION=southeast-1
-heroku config:set AWS_URL=https://vn-mart-taiwan-s3.s3-ap-southeast-1.amazonaws.com
+heroku config:set AWS_URL=https://s3.amazonaws.com
 
 
 AWSAccessKeyId=AKIAIDZTLHEKGEDX5MHQ
