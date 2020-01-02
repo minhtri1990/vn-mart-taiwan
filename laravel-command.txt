@@ -1,0 +1,73 @@
+composer install
+git config --global http.proxy http://10.61.11.42:3128
+git config --global https.proxy http://10.61.11.42:3128
+
+git config --global user.email "trihm21@viettel.com"
+git config --global user.name "trihm21"
+set HTTP_PROXY=http://10.61.11.42:3128
+set HTTPS_PROXY=http://10.61.11.42:3128
+heroku run bash
+
+chmod -R 755 storage/
+cd /app/cd && mkdir logs  && ls /handle
+
+cd /app/storage/logs && ls mkdir handle
+
+cd /app/storage/logs && mkdir logs
+
+cd /app/storage && ls -l
+heroku run ls -l
+
+chmod -R 777 /app/storage
+chmod -R 777 storage
+chmod -R 777 vendor
+chmod -R 777 public/data
+
+mkdir storage
+mkdir logs
+mkdir handle
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+php artisan migrate
+
+php artisan serve
+
+
+
+
+Laravel voyager
+https://morioh.com/p/06f92a80675c
+
+1. create laravel project
+voyager
+https://viblo.asia/p/huong-dan-deploy-project-laravel-cua-ban-len-heroku-maGK7WRbKj2
+php artisan migrate
+fix bug
+https://laravel-news.com/laravel-5-4-key-too-long-error
+php artisan migrate
+php artisan db-seed
+admin@admin.com/password
+
+php artisan voyager:admin trihm21@viettel.com.vn --create
+
+php artisan voyager:install --with-dummy
+php artisan voyager:admin admin@email.com
+
+// Config media voyager
+edit file voyager.php => storage.disk => s3
+
+
+
+
+
+
+
+
+
+
+
+
+
